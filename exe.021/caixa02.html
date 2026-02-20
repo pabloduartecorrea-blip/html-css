@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+         body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #F5E2C8;
+         }
+         header{
+            
+            background-color: #18206F;
+            padding: 10px;
+            margin: 10px;
+         }
+         nav{
+            background-color: aliceblue;
+            color: #18206F;
+            box-shadow: -3px 6px 7px black;
+         }
+         nav > a{
+            text-decoration: none;
+         }
+         nav > a:hover{
+            text-decoration: underline;
+         }
+         main{
+            
+            background-color: #947BD3;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 19px 5px;
+            box-shadow: inset 0px -1px 17px;
+         }
+         article{
+            background-color: #d5a7e0;
+            padding: 2px
+         }
+         article > aside{
+            background-color: #896c91;
+            ;
+
+         }
+         footer{
+            background-color: #BD1E1E;
+            color: #F5E2C8;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+         }
+         footer > p{
+            margin: 0px;
+         }
+         /* Asecssão "footer>p" esta para concertar o erro da largura do rodapé*/
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes e Tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     Aut aliquam ipsa unde? Aliquid eos, iste ab nostrum nemo
+                      voluptas, cum ipsum vero id sed consequuntur nisi.
+                       Dolorem architecto error non.</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+
+        </section>
+
+
+    </main>
+    <footer>
+        <p>Desenvolvido no Curso do Guanabara</p>
+
+    </footer>
+    
+</body>
+</html>

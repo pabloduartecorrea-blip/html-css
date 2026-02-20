@@ -1,0 +1,35 @@
+@charset "UTF-8"
+
+* {
+   
+
+  /*O dowload do site externo para a fonte que estou usando
+  no meu <h1> esta na pagina html*/
+}
+main {
+    background-color: beige;/*Cor do quadrado*/
+    width: 600px; /*'Largura' do "quadrado" branco*/
+    padding: 10px; /*Acolchoamento*/
+    box-shadow: 15px 15px 20px #400036d0;
+    margin: auto; /*Para centralizar o "main"*/
+    border-radius: 20px;/*borda do "square/main"*/
+}
+h1 {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+    color: #E94F37;
+    text-align: center;
+    text-shadow: 1px 1px 2px #8d3022;
+
+}
+h2 {
+    color: #2B4162;
+
+}
+body {
+    background-image: linear-gradient(to right, #640756, #d676b3);/*Degrade*/
+}
+p {
+    text-align: justify;/*Alinhamento de texto*/}
+    

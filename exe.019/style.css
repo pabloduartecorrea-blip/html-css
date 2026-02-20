@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*
+    Tudo que em HTML que é 'id' em CSS é '#' (mais forte que a TAG 'CLASS')
+    Tudo que em HTML é 'CLASS' em CSS é '.' (mais fraco que a TAG 'id')
+*/
+
+body {
+    background-color: #B3B7EE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{ 
+  color: #18206F;
+}
+h1#Principal{
+    background-color: #FF4000;
+    text-align: center;
+    color: #EDAE49;
+}
+
+H2{
+  color: #00798C;
+}
+
+h2.Basico{
+    color: #008c3f;;
+
+}
+h2.Intermediario{
+    color: #7e8c00;;
+}
+h2.Avançado{
+    color: #8c2800;;
+}
+
+.Destaque{
+    background-color: #008c3f;
+    w
+}
